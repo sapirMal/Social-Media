@@ -7,7 +7,7 @@ import {
 import WrapperPage from './common/WrapperPage';
 import Home from './user/pages/Home';
 import Users from './user/pages/Users';
-
+import UserPlaces from './places/pages/UserPlaces';
 function App() {
   return (
     <Router>
@@ -15,8 +15,14 @@ function App() {
 
       <Switch>
         <Route path="/users" exact>
-          <WrapperPage className='site-wrap is-sticky'>
+          <WrapperPage className='site-wrap sticky-wrapper is-sticky'>
             <Users />
+          </WrapperPage>
+        </Route>
+
+        <Route path="/:userId/places" exact>
+          <WrapperPage className='site-wrap sticky-wrapper is-sticky'>
+            <UserPlaces />
           </WrapperPage>
         </Route>
 
