@@ -21,6 +21,7 @@ const placesList = props => {
           image={place.imageUrl}
           description={place.description}
           address={place.address}
+          coordinate={place.location}
         />)
       }) : <h1>No places found.</h1>}
     </div>

@@ -1,8 +1,8 @@
-AOS.init({
-	duration: 800,
-	easing: 'slide',
-	once: true
-});
+// AOS.init({
+// 	duration: 800,
+// 	easing: 'slide',
+// 	once: true
+// });
 
 jQuery(document).ready(function ($) {
 
@@ -120,7 +120,7 @@ jQuery(document).ready(function ($) {
 		$("#amount").val("$" + $("#slider-range").slider("values", 0) +
 			" - $" + $("#slider-range").slider("values", 1));
 	};
-	siteSliderRange();
+	// siteSliderRange();
 
 
 

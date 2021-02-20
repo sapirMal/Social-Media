@@ -8,6 +8,7 @@ import WrapperPage from './common/WrapperPage';
 import Home from './user/pages/Home';
 import Users from './user/pages/Users';
 import UserPlaces from './places/pages/UserPlaces';
+import Modal from './common/Modal';
 function App() {
   return (
     <Router>

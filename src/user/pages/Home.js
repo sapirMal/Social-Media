@@ -9,7 +9,11 @@ import image from '../../assets/images/home1.jpg'
 
 const home = () => {
     return (
-        <div className="site-blocks-cover overlay" style={{backgroundImage: `url(${image})`}} data-aos="fade" id="home-section">
+        <div 
+        className="site-blocks-cover overlay aos-init aos-animate" 
+        style={{backgroundImage: `url(${image})`}} 
+        data-aos="fade" 
+        id="home-section">
 
 
             <div className="container">

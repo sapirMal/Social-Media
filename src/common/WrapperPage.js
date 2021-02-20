@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
-import Nav from './Navigation';
-import MobileNav from './MobileNav';
+import Nav from './Navigation/Navigation';
+import MobileNav from './Navigation/MobileNav';
 
 
 const WrapperPage = (props) => {

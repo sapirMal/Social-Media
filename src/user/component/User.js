@@ -7,7 +7,8 @@ const user = props => {
             <div className="team-member">
                 <figure>
                     <ul className="social">
-                        <li><Link to={`/${props.id}/places`}><span className="icon-external-link">
+                        <li><Link to={`/${props.id}/places`}>
+                            <span className="icon-external-link">
                         </span> see {`${props.firstName}'s`} {places}</Link></li>
                         {/* <li><Link to="#"><span className="icon-twitter"></span></Link></li>
                         <li><Link to="#"><span className="icon-linkedin"></span></Link></li>
