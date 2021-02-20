@@ -8,7 +8,7 @@ import WrapperPage from './common/WrapperPage';
 import Home from './user/pages/Home';
 import Users from './user/pages/Users';
 import UserPlaces from './places/pages/UserPlaces';
-import Modal from './common/Modal';
+import NewPlace from './places/pages/NewPlace';
 function App() {
   return (
     <Router>
@@ -24,6 +24,12 @@ function App() {
         <Route path="/:userId/places" exact>
           <WrapperPage className='site-wrap sticky-wrapper is-sticky'>
             <UserPlaces />
+          </WrapperPage>
+        </Route>
+
+        <Route path="/new-place" exact>
+          <WrapperPage className='site-wrap sticky-wrapper is-sticky' login>
+            <NewPlace />
           </WrapperPage>
         </Route>
 

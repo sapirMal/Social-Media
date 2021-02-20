@@ -51,6 +51,10 @@ h5,
   background: #000 !important;
 }
 
+.bg-white {
+  background: white !important;
+}
+
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5);
 }
